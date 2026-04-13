@@ -1,0 +1,49 @@
+body {
+  /* background-image: url(images/bg-image-with-bird.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* background: linear-gradient(to left, greenyellow, orangered); */
+  /* background: url(images/tech-bg.jpg) center/cover no-repeat #1e293b; */
+  font-family: 'inter';
+}
+
+h2,
+h3,
+h4 {
+  background: slateblue;
+}
+
+.paragraph {
+  color: brown;
+  background-color: rgba(2, 255, 247, 0.104);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 3rem;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  word-spacing: 1rem;
+}
+
+#new {
+  color: orangered;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+ul > li {
+  list-style: none;
+}
