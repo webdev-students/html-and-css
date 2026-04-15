@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   /* background-image: url(images/bg-image-with-bird.jpg);
   background-size: cover;
@@ -12,6 +17,10 @@ h2,
 h3,
 h4 {
   background: slateblue;
+  display: inline;
+}
+h3 {
+  display: none;
 }
 
 .paragraph {
@@ -46,4 +55,57 @@ button:hover {
 
 ul > li {
   list-style: none;
+}
+
+.box {
+  background: orange;
+  /* width: 200px; */
+  height: 100px;
+  padding: 200px 50px 100px 80px;
+  margin: 8px;
+  margin-left: 20px;
+  border: 5px solid black;
+  outline: 5px solid cyan;
+}
+.box1 {
+  background: orangered;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+.box2 {
+  background: greenyellow;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  right: 20px;
+}
+.box3 {
+  background: olive;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+}
+header {
+  background: linear-gradient(to left, rgb(47, 231, 255), rgb(0, 124, 247));
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  background: transparent;
+  color: white;
+  font-weight: bold;
+}
+header > nav a {
+  padding: 4px 8px;
 }
